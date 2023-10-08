@@ -1,0 +1,47 @@
+/* Buyers.css */
+
+.buyer-list {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .buyer-list__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .buyer-list__item {
+    margin-bottom: 15px;
+  }
+  
+  .buyer-list__name,
+  .buyer-list__email,
+  .buyer-list__phone,
+  .buyer-list__address,
+  .buyer-list__created-at,
+  .buyer-list__updated-at {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .buyer-list__divider {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  .buyer-list__search {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }

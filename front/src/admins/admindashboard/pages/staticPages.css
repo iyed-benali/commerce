@@ -1,0 +1,62 @@
+/* StaticPagesList.css */
+
+.static-pages-list-container {
+    padding: 20px;
+  }
+  
+  .static-pages-list-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .static-pages-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .static-pages-list-item {
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .static-pages-list-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .static-pages-list-item-name {
+    font-size: 18px;
+  }
+  
+  .static-pages-list-item-link {
+    color: #3498db;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  .static-pages-list-item-button {
+    background-color: #e74c3c;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .static-pages-list-item-button:hover {
+    background-color: #c0392b;
+  }
+  
+  .selected-page-content {
+    margin-top: 10px;
+    border-top: 1px solid #e1e1e1;
+    padding-top: 10px;
+  }
+  

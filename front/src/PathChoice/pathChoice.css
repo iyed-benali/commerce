@@ -1,0 +1,121 @@
+/* PathChoice.css */
+
+.path-choice-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+  }
+  
+  .path-choice-wrapper {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .path-choice-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .path-choice-subtitle {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .path-choice-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  /* Custom button styles for each role */
+  
+  .btn-buyer {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-seller {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .btn-admin {
+    background-color: #17a2b8;
+    color: #fff;
+  }
+  
+
+  
+  .btn:hover {
+    opacity: 0.8;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .path-choice-wrapper {
+      padding: 20px;
+    }
+  
+    .path-choice-title {
+      font-size: 28px;
+    }
+  
+    .path-choice-subtitle {
+      font-size: 18px;
+    }
+  }
+  .path-choice-options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .path-choice-option {
+    text-align: center;
+    width: 300px;
+  }
+  
+  .role-icon {
+    font-size: 64px;
+    margin-bottom: 10px;
+  }
+  .path-choice-header {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: 1;
+  }
+  
+  .logo {
+    width: 100px; 
+  }
+  
+  .path-choice-footer {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    color: #888;
+  }

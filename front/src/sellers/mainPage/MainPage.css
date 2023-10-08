@@ -1,0 +1,89 @@
+/* MainPage.css */
+
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #dbe9f2; /* Background color for the entire page */
+    color: #333;
+  }
+  
+  /* Style for the main container */
+  .main-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  /* Style for the navbar */
+  .navbar {
+    background-color: #3498db;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar li {
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .navbar a:hover {
+    color: #e74c3c;
+    font-weight: bold;
+  }
+  
+  /* Style for the content area */
+  .content {
+    margin: 20px 0;
+  }
+  
+  /* Style for the footer */
+  .footer {
+    background-color: #34495e;
+    padding: 20px;
+    border-top: 1px solid #2c3e50;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-links a {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+  }
+  
+  .footer-links a:hover {
+    color: #e74c3c;
+  }
+  
+  .footer-info {
+    color: #ecf0f1;
+  }
+  

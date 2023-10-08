@@ -1,0 +1,72 @@
+
+.seller-list {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.seller-list__title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.seller-list__search {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.seller-list__items {
+  list-style: none;
+  padding: 0;
+}
+
+.seller-list__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.seller-list__image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.seller-list__details {
+  flex: 1;
+}
+
+.seller-list__name,
+.seller-list__email,
+.seller-list__phone,
+.seller-list__address {
+  font-weight: bold;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.delete-button:hover {
+  background-color: darkred;
+}
+
+.seller-list__divider {
+  margin-top: 20px;
+  border: none;
+  border-top: 1px solid #ccc;
+}
